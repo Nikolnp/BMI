@@ -24,6 +24,12 @@ public:
 	~person();
 	//Body Mass Index
 	double BMI();
+	//accesors and modifiers 
+	string getName()const;
+	int getAge() const;
+	int getWeight() const;
+	int getHeight() const;
+	
 
 
 };

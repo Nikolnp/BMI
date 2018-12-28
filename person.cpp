@@ -21,6 +21,18 @@ person::person(string name, int age, int weight, int height){
 	}
 person::~person() {}
 
+string person::getName()const {
+	return newName;
+}
+int person::getAge() const { 
+	return newAge;
+}
+int person::getWeight() const { 
+	return newWeight; }
+
+int person::getHeight() const { 
+	return newHeight; }
+
 double person::BMI() {
 	double BMI = (newWeight / (newHeight * newHeight)) * 10000;
 

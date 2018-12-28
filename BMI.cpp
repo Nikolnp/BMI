@@ -25,6 +25,7 @@ int main()
 
 	person person_1(name, age, weight, height);
 	cout << person_1.BMI();;
+	cout << person_1.getName();
 	
 
 	return 0;
